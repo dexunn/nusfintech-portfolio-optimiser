@@ -1,5 +1,6 @@
 # ML Smart Portfolio Rebalancer
 **Live App:** https://nusfintech-portfolio-optimiser.streamlit.app/
+
 A machine-learning powered portfolio optimization tool that predicts volatility and generates optimal asset allocation using EGARCH, XGBoost, and Monte Carlo simulation.
 
 ## Features
