@@ -31,7 +31,11 @@ def predict_next_day_volatility_streamlit(ticker: str):
 # Sidebar UI
 logo_col1, logo_col2, logo_col3 = st.sidebar.columns([1, 2, 1])
 with logo_col2:
-    st.image("https://img.icons8.com/fluency/96/bullish.png", use_container_width=True)
+    try:
+    st.image("https://img.icons8.com/fluency/96/bullish.png", width=80)
+    except:
+    st.write("📈")
+
 
 st.sidebar.title("Smart Rebalancer")
 st.sidebar.caption("Group 1: Dexun, Thaddus, Eron")
